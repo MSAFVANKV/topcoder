@@ -1,0 +1,307 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Barlow Condensed', sans-serif; */
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 74px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+header .navbar
+{
+    padding: 0px 0px 0px 790px;
+}
+header li
+{
+    line-height: 24px;
+}
+header a{
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: RGB(170, 170, 170);
+    font-weight: 600;
+    /* letter-spacing: 1px; */
+    font-size: 20px;
+    line-height: 24px;
+}
+.logo{
+    display: flex;
+}
+header img{
+    margin-left: 40px;
+    width: 173px;
+}
+.head{
+    display: flex;
+    padding-left: 10px;
+}
+header .main .primary{
+    display: flex;
+    float: right;
+    margin-right: 20px;
+}
+header .main .primary .login{
+    font-weight: bolder;
+    color: #fff;
+    font-size: 14px;
+    padding-right: 0px;
+    letter-spacing: 1px;
+}
+header .main .primary .singnup
+{
+    padding: 9px 20px 9px 20px;
+    background-color: #fff;
+    color: RGB(170, 170, 170);
+    border-radius: 30px;
+    font-size: 14px;
+    margin-right: 24px;
+
+}
+header .line{
+    display: block;
+    padding: 0 3px 0 4px;
+    margin: -1px 0;
+    /* background-color: #767676; */
+    width: 60px;
+    height: 100%;
+}
+header .line::before{
+    content: "";
+    height: 100%;
+    width: 1px;
+    background: #767676;
+    display: block;
+    margin-left: 32px;
+}
+/* #page1v2{
+    background: linear-gradient(90deg, #000 14.39%, rgba(0,0,0,0) 68.06%);
+    position: relative;
+    z-index: 1;
+} */
+
+
+
+.page1
+{
+    background-color: #8231A9;
+    position: absolute;
+    z-index: 1;
+    height: 96vh;
+    width: 100%;
+    position: inherit;
+    box-sizing: inherit;
+}
+
+.page1 .inner h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 100px;
+    width: 1190px;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: start;
+}
+.page1 .page1-primary
+{
+    padding: 18px 0px 108px 0px;
+
+}
+.page1 .page1-primary::after{
+    box-sizing: inherit;
+    content: "";
+    /* display: block; */
+    background: url(/Icons/bg-wave-v2.png) 50% 0 no-repeat;
+    background-size: cover;
+    /* background-color: #767676; */
+    bottom: -44px;
+    height: 78px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.page1 .content
+{
+    max-width: 1000px;
+    min-height: 412px;
+}
+.page1 .head-line{
+    height: 246px;
+}
+.page1 .page1-primary .inner{
+    max-width: 1190px;
+    min-height: 246px;
+    padding: 10px 15px 0px 40px;
+
+}
+.page1 .discription
+{
+    margin: 10px 0px;
+}
+.page1 .discription p{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+    /* text-transform: uppercase; */
+    font-size: 32px;
+    /* font-weight: 600; */
+}
+.page1 .action{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 40px;
+}
+.page1 .action a{
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.page1 .action .action-white
+{
+    color: #767676;
+    background-color: #fff;
+    padding: 10px 40px 10px 40px;
+   
+    border-radius: 30px;
+}
+.page1 .action .action-white:hover
+{
+    background-color: #9e8d8d;
+}
+.page1 .action .action-blank
+{
+    border: 4px solid #fff;
+    padding: 10px 50px 10px 50px;
+    border-radius: 30px;
+}
+.page1 .action .action-blank:hover
+{
+    background-color: #fff;
+    color: #767676;
+}
+
+
+        /* <!--section 03 --> */
+
+.page02{
+    height: 100px;
+}
+.page02 .container{
+    /* background-color: black; */
+}
+.page02 .max1280{
+    max-width: 1410px;
+    margin: 0 auto;
+    padding-left: 13px ;
+    padding-right: 13px ;
+    /* background-color: coral; */
+    height: 100px;
+}
+.page02 .content .brand-label
+{
+    display: block;
+    width: 95px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #555555;
+}
+.page02 .content .brand-logo
+{
+    background-size: 50px;
+}
+.page02 .max1280 .content
+{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    /* page---03 */
+
+.page03{
+    background-color: #fff;
+    padding: 88px 0 120px;
+    align-items: center;
+    padding: 0px 0 74px;
+}
+.page03 .inner-messege{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+
+}
+.messege{
+    ax-width: 1310px;
+    margin: 0 auto;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.page03 .purple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner-messege
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.purple{
+    flex:0 0 177px;
+}
+.page03 .purple h2
+{
+    font-size: 130px;
+    line-height: 120px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: RGB(101, 35, 133);
+    padding: 0px 43px 0px 0px;
+    letter-spacing: -5px;
+}
+.page03 .messege
+{
+    max-width: 1390px;
+}
+.parag{
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    text-decoration:none solid rgb(0, 0, 0);
+}
+.parag a{
+    color: #137D60;
+
+}
+.parag p{
+    line-height: 40px;
+}
+/* <!-- section  04 --> */
+
+
+/* .page04{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(12,13,13);
+} */
