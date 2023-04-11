@@ -89,7 +89,7 @@ header .line::before{
 .page1
 {
     background-color: #8231A9;
-    background-image: url(/Icons/img-01-home.png);
+    /* background-image: url(/Icons/img-01-home.png); */
     z-index: 1;
     height: 96vh;
     width: 100%;
